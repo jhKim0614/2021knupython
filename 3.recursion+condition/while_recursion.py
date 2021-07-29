@@ -14,7 +14,16 @@ while it < 5:
 #   반복할 명령어2
 
 # while 무한루프
-it = 0 
-while True:
+# overflow
+it = 0
+while True
   it += 1
   print(it)
+
+# while 무한루프 + break
+it = 0
+while True:
+    it += 1
+    print(it)
+    if it > 500
+      break
